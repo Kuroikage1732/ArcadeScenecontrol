@@ -1,4 +1,4 @@
-# ArcadeScenecontrol >
+# ArcadeScenecontrol
 ArcadeZero v4 的新 Scenecontrol API 教程 - 中文（在DeepL翻译的基础上进行了修改）  
 如果你需要英文文本作为对照：https://github.com/Kuroikage1732/ArcadeScenecontrol/blob/main/README_Compared.md
 
