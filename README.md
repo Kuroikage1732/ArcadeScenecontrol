@@ -1,4 +1,4 @@
-# ArcadeScenecontrol
+# ArcadeScenecontrol >
 ArcadeZero v4 的新 Scenecontrol API 教程 - 中文（在DeepL翻译的基础上进行了修改）  
 如果你需要英文文本作为对照：https://github.com/Kuroikage1732/ArcadeScenecontrol/blob/main/README_Compared.md
 
@@ -224,6 +224,7 @@ channel.addKey(2000, 0)
 ```
 
 下面是所有支持的缓动的列表。每种缓动类型都可以用多种方式编写。
+
 | 名称 | 别名 | 形态 |
 | - | - | - |
 | linear | l | <img src="https://i.imgur.com/RW6npU1.png" width=120em> |
@@ -346,6 +347,7 @@ addScenecontrol("mytypename", {}, function (cmd) ... end)
 `Scene` 中文译为场景。`Scene` 对象有两个功能：抓取内置控制器，以及创建新的控制器。我们已经做了前者，但到目前为止只接触了其中的一种类型。在本指南中详细描述每种类型的控制器是不现实的，所以请参考文档以获得更多信息。
 
 下面是所有内置控制器的列表
+
 | 对象 | 类型 | 简介 |
 | - | - | - |
 | Scene.gameplayCamera | CameraController | 主摄像头 |

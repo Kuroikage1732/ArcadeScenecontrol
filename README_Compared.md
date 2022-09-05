@@ -335,6 +335,7 @@ channel.addKey(2000, 0)
 ```
 
 下面是所有支持的缓动的列表。每种缓动类型都可以用多种方式编写。
+
 | 名称 | 别名 | 形态 |
 | - | - | - |
 | linear | l | <img src="https://i.imgur.com/RW6npU1.png" width=120em> |
@@ -372,6 +373,7 @@ channel.addKey(2000, 0)
 | outbounce | bno | <img src="https://i.imgur.com/58pzeQD.png" width=120em> |
 | inoutbounce | bnb | <img src="https://i.imgur.com/dhdjvX0.png" width=120em> |
 > Here's the list of all the easings supported. Each easing type can be written multiple ways.
+>
 > | Name | Aliases | Shape |
 > | - | - | - |
 > | linear | l | <img src="https://i.imgur.com/RW6npU1.png" width=120em> |
@@ -523,6 +525,7 @@ addScenecontrol("mytypename", {}, function (cmd) ... end)
 > The `Scene` object serves 2 function: grabbing internal controllers, and creating new controllers. We have done the former already, but only with one type of them so far. It's not practical to describe in details every type of controllers in this guide, so please refer to the documentation for more information.
 
 下面是所有内置控制器的列表
+
 | 对象 | 类型 | 简介 |
 | - | - | - |
 | Scene.gameplayCamera | CameraController | 主摄像头 |
@@ -562,6 +565,7 @@ addScenecontrol("mytypename", {}, function (cmd) ... end)
 | Scene.skyInputLabel | SpriteController | skyinput标签的控制器 |
 | Scene.darken | SpriteController | 暗化的精灵控制器（被 trackdisplay 类型使用）。 |
 > To get an idea of what you can do, here's the list of all internal controllers
+>
 > | Path | Type | Description |
 > | - | - | - |
 > | Scene.gameplayCamera | CameraController | The main camera |
